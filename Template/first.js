@@ -27,7 +27,6 @@ while((result = regex.exec(inFile)) !== null) {
   input.push(firstGroup);
 
 }
-console.log(count);
 
 // for (const ndx in input) {
 //
