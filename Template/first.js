@@ -12,7 +12,7 @@ const inFile = fs.readFileSync('inputs/input', 'utf8');
 const nonWhitespace = /\S+/g;
 const positiveOrNegativeNumber = /(-?)(\d+)/g;
 const numberAndWord = /(-?)(\d+) \S+/g;
-const entireLine = /^(\S*)(?:\n)/gm
+const entireLine = /([^\n]*)\n/gm
 
 const regex = entireLine; //      /()\n/gm;
 
